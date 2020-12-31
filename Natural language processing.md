@@ -20,7 +20,7 @@ EX: search engine
 
 **Information extraction**
 
-![image alt text](image_1.png)
+![image alt text](images/image_1.png)
 
 **Sentiment analysis**
 
@@ -28,7 +28,7 @@ EX: search engine
 
 ## Common NLP Tasks
 
-### ![image alt text](image_2.png)
+### ![image alt text](images/image_2.png)
 
 ### **Text and speech processing**
 
@@ -58,17 +58,17 @@ Separate a chunk of continuous text into separate words.Sometimes this process i
 
 ## Application Of NLP
 
-![image alt text](image_4.png)
+![image alt text](images/image_4.png)
 
-![image alt text](image_5.png)
+![image alt text](images/image_5.png)
 
 ## **NLP Component**
 
-![image alt text](image_6.png)
+![image alt text](images/image_6.png)
 
-![image alt text](image_7.png)
+![image alt text](images/image_7.png)
 
-![image alt text](image_8.png)
+![image alt text](images/image_8.png)
 
 ### **Morphological analysis**
 
@@ -84,11 +84,11 @@ on Colab →[ ](https://www.youtube.com/redirect?v=fNxaJsNG3-s&event=video_descr
 
 [https://colab.research.google.com/drive/1h18wWN1gWwFCw-bx4s4S-s7V-rPxnquS?usp=sharing](https://colab.research.google.com/drive/1h18wWN1gWwFCw-bx4s4S-s7V-rPxnquS?usp=sharing)
 
-![image alt text](image_9.png)
+![image alt text](images/image_9.png)
 
-![image alt text](image_10.png)
+![image alt text](images/image_10.png)
 
-![image alt text](image_11.png)
+![image alt text](images/image_11.png)
 
 Also called word segmentor
 
@@ -102,19 +102,19 @@ Chineses japanese no spaces between words
 
 **Text normalization is the process of transforming a text into a canonical (standard) form. For example, the word "gooood" and “gud” can be transformed to “good”, its canonical form. Another example is mapping of near identical words such as “stopwords”, “stop-words” and “stop words” to just “stopwords”.**
 
-![image alt text](image_12.png)
+![image alt text](images/image_12.png)
 
 #### **Stemming**
 
 Stemming is the process of reducing inflection in words (e.g. troubled, troubles) to their root form (e.g. trouble). The "root" in this case may not be a real root word, but just a canonical form of the original word.
 
-![image alt text](image_13.png)
+![image alt text](images/image_13.png)
 
 #### **Lemmatization**
 
 Lemmatization on the surface is very similar to stemming, where the goal is to remove inflections and map a word to its root form. 
 
-![image alt text](image_14.png)
+![image alt text](images/image_14.png)
 
 Stemming just removes or stems the last few characters of a word, often leading to incorrect meanings and spelling. Lemmatization considers the context and converts the word to its meaningful base form, which is called Lemma. Sometimes, the same word can have multiple different Lemmas. We should identify the Part of Speech (POS) tag for the word in that specific context. Here are the examples to illustrate all the differences and use cases:
 
@@ -126,25 +126,25 @@ You would get same results whether you lemmatize or stem words such as walking, 
 
 Lemmatization is computationally expensive since it involves look-up tables and what not. If you have large dataset and performance is an issue, go with Stemming. Remember you can also add your own rules to Stemming. If accuracy is paramount and dataset isn't humongous, go with Lemmatization.
 
-![image alt text](image_15.png)
+![image alt text](images/image_15.png)
 
-![image alt text](image_16.png)
+![image alt text](images/image_16.png)
 
-#### ![image alt text](image_17.png)
+#### ![image alt text](images/image_17.png)
 
 #### ![image alt text](image_18.png)
 
-#### ![image alt text](image_19.png)
+#### ![image alt text](images/image_19.png)
 
-![image alt text](image_20.png)
+![image alt text](images/image_20.png)
 
-![image alt text](image_21.png)
+![image alt text](images/image_21.png)
 
 #### **Noise Removal**
 
 Noise removal is about removing characters digits and pieces of text that can interfere with your text analysis. Noise removal is one of the most essential text preprocessing steps. It is also highly domain dependent.
 
-![image alt text](image_22.png)
+![image alt text](images/image_22.png)
 
 **[Stanford CoreNLP** ](https://stanfordnlp.github.io/CoreNLP/)**demo**
 
@@ -160,7 +160,7 @@ One of the simple and at the same time popularly usable metrics is Edit distance
 
 An example of Edit distance execution is shown below.
 
-![image alt text](image_23.png)
+![image alt text](images/image_23.png)
 
 So this algorithm  includes the following text operations:
 
@@ -170,7 +170,7 @@ So this algorithm  includes the following text operations:
 
 * characters substitutions.
 
-![image alt text](image_24.jpg)
+![image alt text](images/image_24.jpg)
 
 Popular NLP applications for Edit distance:
 
@@ -184,11 +184,11 @@ Popular NLP applications for Edit distance:
 
 Cosine similarity is a metric used for text similarity measuring in various documents. Calculations for this metric are based on the measures of the vector's similarity by cosine vectors formula:
 
-![image alt text](image_25.png)
+![image alt text](images/image_25.png)
 
 You can use various text features or characteristics as vectors describing this text, for example, by using text vectorization methods. For example, the cosine similarity calculates the differences between such vectors that are shown below on the vector space model for three terms.
 
-![image alt text](image_26.jpg)
+![image alt text](images/image_26.jpg)
 
 The calculation result of cosine similarity describes the similarity of the text and can be presented as cosine or angle values.
 
@@ -212,7 +212,7 @@ The most intuitive and simple way to vectorize text information involves the fol
 
 As a result, we get a **vector** with a unique index value and the repeat frequencies for each of the words in the text.
 
-![image alt text](image_27.jpg)
+![image alt text](images/image_27.jpg)
 
 Representing the text in the form of vector - "bag of words", means that we have some unique words (n_features) in the set of words (corpus).
 
