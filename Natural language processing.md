@@ -10,7 +10,7 @@ Many different classes of machine-learning algorithms have been applied to natur
 
 focused on [statistical models](https://en.wikipedia.org/wiki/Statistical_models), which make soft, [probabilistic](https://en.wikipedia.org/wiki/Probabilistic) decisions
 
-![image alt text](image_0.png)
+![image alt text](images/image_0.png)
 
 NLP system: take natural language and process it as your requirement
 
