@@ -54,7 +54,7 @@ Given a text, transform those units and produce a spoken representation. Text-to
 
 Separate a chunk of continuous text into separate words.Sometimes this process is also used in cases like [bag of words](https://en.wikipedia.org/wiki/Bag_of_words) (BOW) creation in data mining.
 
-![image alt text](image_3.png)
+![image alt text](images/image_3.png)
 
 ## Application Of NLP
 
@@ -132,7 +132,7 @@ Lemmatization is computationally expensive since it involves look-up tables and 
 
 #### ![image alt text](images/image_17.png)
 
-#### ![image alt text](image_18.png)
+#### ![image alt text](images/image_18.png)
 
 #### ![image alt text](images/image_19.png)
 
@@ -240,11 +240,11 @@ This technique uses TF and IDF algorithms:
 
 The algorithm for TF-IDF calculation for one word is shown on the diagram.
 
-![image alt text](image_28.jpg)
+![image alt text](images/image_28.jpg)
 
 The results of the same algorithm for three simple sentences with the TF-IDF technique are shown below.
 
-![image alt text](image_29.jpg)
+![image alt text](images/image_29.jpg)
 
 The advantages of this vectorization technique:
 
@@ -256,17 +256,17 @@ The advantages of this vectorization technique:
 
 Usually, text documents use different word forms, for example:
 
-![image alt text](image_30.jpg)
+![image alt text](images/image_30.jpg)
 
 Also, there are words with similar definitions: 
 
-![image alt text](image_31.jpg)
+![image alt text](images/image_31.jpg)
 
 The stemming and lemmatization object is to convert different word forms, and sometimes derived words, into a common basic form.
 
 Stemming is the technique to reduce words to their root form (a canonical form of the original word). Stemming usually uses a heuristic procedure that chops off the ends of the words.
 
-![image alt text](image_32.jpg)
+![image alt text](images/image_32.jpg)
 
 Stemming is useful for standardizing vocabulary processes. At the same time, it is worth to note that this is a pretty crude procedure and it should be used with other text processing methods.
 
@@ -274,7 +274,7 @@ Lemmatization is the text conversion process that converts a word form (or word)
 
 The difference between stemming and lemmatization is that the last one takes the context and transforms a word into lemma while stemming simply chops off the last few characters, which often leads to wrong meanings and spelling errors.
 
-![image alt text](image_33.jpg)
+![image alt text](images/image_33.jpg)
 
 So, lemmatization procedures provide higher context matching compared with basic stemmer.
 
@@ -308,7 +308,7 @@ The most popular keywords extraction algorithms out there are:
 
 **Named Entity Recognition **is another very important technique in the Natural Language Processing space. It is responsible with identifying entities in an unstructured text and assigning them to a list of predefined categories: persons, organisations, dates, money and so on.
 
-![image alt text](image_34.png)Named Entity Recognition
+![image alt text](images/image_34.png)Named Entity Recognition
 
 Named Entity Recognition actually consists of two substeps: **Named Entity Identification **(identifying potential candidates for the NER algorithm) and **Named Entity Classification **(actually assigning the candidates to one of the predefined categories).
 
@@ -340,7 +340,7 @@ This is done by measuring two statistics:
 
 Knowledge graphs belong to the category of information extraction techniques - obtaining structured information from unstructed texts.
 
-![image alt text](image_35.png)Knowledge graph example
+![image alt text](images/image_35.png)Knowledge graph example
 
 Knowledge graphs have been immensely popular lately, especially because many companies(think for example the Google Knowledge Graph) use them for various products and services.
 
@@ -354,13 +354,13 @@ Building a knowledge graph requires a large variety of NLP techniques(possible e
 
 The Naive Bayesian Analysis (NBA) is a classification algorithm that is based on the Bayesian Theorem, with the hypothesis on the feature's independence.
 
-![image alt text](image_36.png)
+![image alt text](images/image_36.png)
 
 In other words, the NBA assumes the existence of any feature in the class does not correlate with any other feature. That's why such an approach is called "Naive". The advantage of this classifier is the small data volume for model training, parameters estimation, and classification.
 
 In most cases, NBA in the Natural Language Processing sphere is used for text classification (clustering). The most known task is a spam detection filter. Most solutions in this sphere use the maximum likelihood method to estimate the parameters of Naive Bayesian models:
 
-![image alt text](image_37.png)
+![image alt text](images/image_37.png)
 
 The first multiplier defines the probability of the text class, and the second one determines the conditional probability of a word depending on the class.
 
@@ -388,13 +388,13 @@ Word embedding is a set of various methods, techniques, and approaches for creat
 
 Word embedding principles: words that appear in the same context have similar meanings. In this case, the similarity is broadly understood that only similar words can be located nearby (in context).
 
-![image alt text](image_38.jpg)
+![image alt text](images/image_38.jpg)
 
 The model predicts the probability of a word by its context. So, NLP-model will train by vectors of words in such a way that the probability assigned by the model to a word will be close to the probability of its matching in a given context (Word2Vec model).
 
 Generally, the probability of the word's similarity by the context is calculated with the softmax formula. This is necessary to train NLP-model with the backpropagation technique, i.e. the backward error propagation process.
 
-![image alt text](image_39.jpg)
+![image alt text](images/image_39.jpg)
 
 The most popular word embeddings:
 
@@ -420,7 +420,7 @@ LSTM network include several interacting layers:
 
 * output data.
 
-![image alt text](image_40.jpg)
+![image alt text](images/image_40.jpg)
 
 The main component of LSTM is the cell state – a horizontal line (с0-с1). The condition of the cell is similar to a conveyor line. Information passes directly through the entire chain, taking part in only a few linear transforms. The information can flow without any changes.
 
@@ -450,7 +450,7 @@ Natural Language Processing tasks for which LSTM can be useful:
 
 So, LSTM is one of the most popular types of neural networks that provides advanced solutions for different Natural Language Processing tasks.
 
-![image alt text](image_41.png)
+![image alt text](images/image_41.png)
 
 **Stanford CS224N**
 
